@@ -14,6 +14,14 @@ require __DIR__ . '/../lib/functions.php';
 getPart('header');
 getContent();
 
+getPart('footer');
+
+
+function getUserData(){
+
+    file_get_contents('user.json');
+
+}
 
 getUserData();
 

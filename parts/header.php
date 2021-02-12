@@ -9,5 +9,5 @@
     <body>
         <header>
             <h1>Jane Doe</h1>
-            <?php getPart('menu'); ?>
+            <?php include '../parts/menu.php'; ?>
         </header>
